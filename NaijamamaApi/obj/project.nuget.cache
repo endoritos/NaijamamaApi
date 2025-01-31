@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7a6jR4NyJgw=",
+  "dgSpecHash": "NBKFoJjq+UY=",
   "success": true,
   "projectFilePath": "/Users/endyokpamen/Developer/NaijamamaApi/NaijamamaApi/Naijamama.csproj",
   "expectedPackageFiles": [
+    "/Users/endyokpamen/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/endyokpamen/.nuget/packages/bouncycastle.cryptography/2.3.1/bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "/Users/endyokpamen/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
     "/Users/endyokpamen/.nuget/packages/google.protobuf/3.26.1/google.protobuf.3.26.1.nupkg.sha512",

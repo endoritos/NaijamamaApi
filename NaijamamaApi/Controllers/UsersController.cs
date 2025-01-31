@@ -4,6 +4,7 @@ using naijamama.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Dapper;
+using BCrypt.Net;
 
 namespace naijamama.Controllers
 {
@@ -26,13 +27,27 @@ namespace naijamama.Controllers
             return Ok(users);
         }
 
+
         [HttpPost]
         public IActionResult AddUser(User user)
         {
-            using var connection = new MySqlConnection(_connectionString);
-            var query = "INSERT INTO users (name, email, password) VALUES (@Name, @Email, @Password)";
-            connection.Execute(query, user);
-            return Ok("User added successfully");
+            try
+            {
+                using var connection = new MySqlConnection(_connectionString);
+                
+                // Hash the password before storing
+                user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
+
+                var query = "INSERT INTO users (name, email, password, phone) VALUES (@Name, @Email, @Password, @Phone)";
+                connection.Execute(query, user);
+                
+                return Ok("User added successfully");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Error: {ex.Message}");
+            }
         }
+    
     }
 }

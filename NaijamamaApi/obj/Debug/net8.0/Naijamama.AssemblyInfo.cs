@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Naijamama")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2e1ef02981ea3ba55b96e7af4287dcee9a28fd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Naijamama")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Naijamama")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

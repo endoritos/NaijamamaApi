@@ -108,3 +108,5 @@
 /Users/endyokpamen/Developer/NaijamamaApi/NaijamamaApi/obj/Debug/net8.0/Naijamama.pdb
 /Users/endyokpamen/Developer/NaijamamaApi/NaijamamaApi/obj/Debug/net8.0/Naijamama.genruntimeconfig.cache
 /Users/endyokpamen/Developer/NaijamamaApi/NaijamamaApi/obj/Debug/net8.0/ref/Naijamama.dll
+/Users/endyokpamen/Developer/NaijamamaApi/NaijamamaApi/obj/Debug/net8.0/Naijamama.sourcelink.json
+/Users/endyokpamen/Developer/NaijamamaApi/NaijamamaApi/bin/Debug/net8.0/BCrypt.Net-Next.dll

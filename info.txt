@@ -1,0 +1,2 @@
+passwords beening saved in de databes are not beeing hased 
+ussed  dotnet add package BCrypt.Net-Next  database was created using laravel idk
